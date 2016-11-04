@@ -9,50 +9,50 @@ angular.module('tour.values', []).
 // List of modules with description and lessons in it.
 value('tableOfContents', [{
     'id': 'mechanics',
-    'title': 'Using the tour',
-    'description': '<p>Welcome to a tour of the <a href="http://golang.org">Go programming language</a>. The tour covers the most important features of the language, mainly:</p>',
+    'title': 'Пользование туром',
+    'description': '<p>Добро пожаловать в тур по <a href="http://golang.org">языку программирования Go</a>. Тур рассказывает о наиболее важных свойства языка, в частности:</p>',
     'lessons': ['welcome']
 }, {
     'id': 'basics',
-    'title': 'Basics',
-    'description': '<p>The starting point, learn all the basics of the language.</p><p>Declaring variables, calling functions, and all the things you need to know before moving to the next lessons.</p>',
+    'title': 'Основы',
+    'description': '<p>Изучите все основы языка.</p><p>Объявления переменных, вызов функций и все типы, что вы должны знать перед тем, как переходить к следующим занятиям.</p>',
     'lessons': ['basics', 'flowcontrol', 'moretypes']
 }, {
     'id': 'methods',
-    'title': 'Methods and interfaces',
-    'description': '<p>Learn how to define methods on types, how to declare interfaces, and how to put everything together.</p>',
+    'title': 'Методы и интерфейсы',
+    'description': '<p>Изучите, как определять методы для типов, как объявлять интерфейсы, и как связать все между собой.</p>',
     'lessons': ['methods']
 }, {
     'id': 'concurrency',
-    'title': 'Concurrency',
-    'description': '<p>Go provides concurrency features as part of the core language.</p><p>This module goes over goroutines and channels, and how they are used to implement different concurrency patterns.</p>',
+    'title': 'Конкурентность',
+    'description': '<p>Go предоставляет возможности конкуренции, как часть ядра самого языка.</p><p>Данном разделе вы пройдете go-подпрограммы (горутины) и каналы, узнаете как они работают для воплощения различных образцов конкуренции.</p>',
     'lessons': ['concurrency']
 }]).
 
 // translation
 value('translation', {
-    'off': 'off',
-    'on': 'on',
-    'syntax': 'Syntax-Highlighting',
-    'lineno': 'Line-Numbers',
-    'reset': 'Reset Slide',
-    'format': 'Format Source Code',
-    'kill': 'Kill Program',
-    'run': 'Run',
-    'compile': 'Compile and Run',
-    'more': 'Options',
-    'toc': 'Table of Contents',
-    'prev': 'Previous',
-    'next': 'Next',
-    'waiting': 'Waiting for remote server...',
-    'errcomm': 'Error communicating with remote server.',
-    'submit-feedback': 'Send feedback about this page',
+    'off': 'выкл.',
+    'on': 'вкл.',
+    'syntax': 'Подсветка-Синтаксиса',
+    'lineno': 'Номера-Строк',
+    'reset': 'Восстановить слайд',
+    'format': 'Формат выходного кода',
+    'kill': 'Завершить программу',
+    'run': 'Выполнить',
+    'compile': 'Скомпилировать и выполнить',
+    'more': 'Настройка',
+    'toc': 'Содержание',
+    'prev': 'Назад',
+    'next': 'Далее',
+    'waiting': 'Ожидания удаленного сервера...',
+    'errcomm': 'Ошибка связи с удаленным сервером.',
+    'submit-feedback': 'Отправить отзыв для этой страницы',
 
     // GitHub issue template: update repo and messaging when translating.
-    'github-repo': 'github.com/golang/tour',
-    'issue-title': 'tour: [REPLACE WITH SHORT DESCRIPTION]',
-    'issue-message': 'Change the title above to describe your issue and add your feedback here, including code if necessary',
-    'context': 'Context',
+    'github-repo': 'github.com/l-vitaly/go-tour-ru',
+    'issue-title': 'tour: [КРАТКОЕ ОПИСАНИЕ ПРОБЛЕМЫ]',
+    'issue-message': 'Измените заголовок и опишите здесь суть проблемы, в первую очередь то, что касается перевода.',
+    'context': 'Контекст',
 }).
 
 // Config for codemirror plugin
