@@ -98,12 +98,12 @@ Error () string
 
 Функции часто возвращают значение `error`. Код должен обрабатывать ошибки, проверяя равна ли ошибка `nil`.
 
-i, err = strconv.Atoi("42")
-if err! = nil {
-fmt.Printf("could not convert number: %v \n", err)
-return
-}
-fmt.Println("Converted integer:", i)
+	i, err := strconv.Atoi("42")
+	if err != nil {
+		fmt.Printf("couldn't convert number: %v\n", err)
+		return
+	}
+	fmt.Println("Converted integer:", i)
 
 Nil `error` означает успех; НЕ nil `error` означает неудачу.
 
