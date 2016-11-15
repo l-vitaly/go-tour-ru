@@ -9,10 +9,10 @@ https://golang.org
 Добро пожаловать в тур [[https://golang.org/][язык программирования Go]].
 
 Этот тур разделен на список занятий, доступный по ссылке
-[[javascript:highlight(".Logo")][Тур с Go]] наверху в левом углу страницы.
+[[javascript:highlight(".logo")][Тур с Go]] наверху в левом углу страницы.
 
 Также вы можете в любой момент увидеть содержание, нажав на
-[[javascript:highlightAndClick(".Nav")][меню]] наверху в правом углу страницы.
+[[javascript:highlightAndClick(".nav")][меню]] наверху в правом углу страницы.
 
 В течение тура вы найдете ряд слайдов и упражнений для их выполнения.
 
@@ -36,9 +36,9 @@ https://golang.org
 
 Обратите внимание, что если клинкнуть по [[javascript:highlightAndClick("#format")][Формат]] или `ctrl-enter`
 текст в редакторе переформовуеться с помощью инструмента [[Https://golang.org/cmd/gofmt/][gofmt]].
-Выделение синтаксиса включается и выключается нажатием на кнопку [[javascript:highlightAndClick(".Syntax-checkbox")][синтаксис]].
+Выделение синтаксиса включается и выключается нажатием на кнопку [[javascript:highlightAndClick(".syntax-checkbox")][синтаксис]].
 
-Когда вы готовы продолжить, нажмите [[javascript:highlightAndClick(".Next-page")][стрелку вправо]] снизу или нажмите клавишу `PageDown`.
+Когда вы готовы продолжить, нажмите [[javascript:highlightAndClick(".next-page")][стрелку вправо]] снизу или нажмите клавишу `PageDown`.
 
 .play welcome/hello.go
 
@@ -107,5 +107,5 @@ https://golang.org
 
 Вы завершили первое занятие тура!
 
-Сейчас нажмите [[javascript:highlightAndClick(".Logo")][Тур с Go]], чтобы узнать еще
+Сейчас нажмите [[javascript:highlightAndClick(".logo")][Тур с Go]], чтобы узнать еще
 вы можете изучить о Go, или перейдите непосредственно к [[javascript:click('.next-page')][следующему занятию]].
