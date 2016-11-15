@@ -81,7 +81,7 @@ https://golang.org
 #appengine:
 #appengine: и запустите полученный исполняемые файл `gotour`.
 #appengine:
-#appengine: cd $ GOPATH / bin
+#appengine: cd $GOPATH/bin
 #appengine: ./gotour
 
 #appengine * Go Площадка
