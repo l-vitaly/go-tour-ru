@@ -77,12 +77,11 @@ https://golang.org
 #appengine: затем с помощью [[https://golang.org/cmd/go/][go get]] установите
 #appengine: [[https://golang.org/x/tour/][gotour]]:
 #appengine:
-#appengine: go get golang.org/x/tour/gotour
+#appengine: go tool tour
 #appengine:
-#appengine: и запустите полученный исполняемые файл `gotour`.
+#appengine: Программа тура откроет веб-браузер, отображающий локальную версию тура.
 #appengine:
-#appengine: cd $GOPATH/bin
-#appengine: ./gotour
+#appengine: И, конечно, вы можете продолжать просматривать тур через этот веб-сайт.
 
 #appengine * Go Площадка
 #appengine:
