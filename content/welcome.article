@@ -77,7 +77,7 @@ https://golang.org
 #appengine: затем с помощью [[https://golang.org/cmd/go/][go get]] установите
 #appengine: [[https://golang.org/x/tour/][gotour]]:
 #appengine:
-#appengine: 	go get golang.org/x/tour/gotour
+#appengine: go get golang.org/x/tour/gotour
 #appengine:
 #appengine: и запустите полученный исполняемые файл `gotour`.
 #appengine:
