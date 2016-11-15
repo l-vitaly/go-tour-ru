@@ -1,19 +1,20 @@
 Добро пожаловать!
 Узнайте как пользоваться этим произведением: включая навигацией различными понятиями и выполнением кода.
 
-
-Авторы Go
+The Go Authors
 https://golang.org
 
-*Привет, 世界
+* Привет, 世界
 
-Добро пожаловать в туру [[https://golang.org/][язык программирования Go]].
+Добро пожаловать в тур [[https://golang.org/][язык программирования Go]].
 
-Этот тур разделен на список занятий, доступный по ссылке [[javascript:highlight(".Logo")][Тур с Go]] наверху в левом углу страницы.
+Этот тур разделен на список занятий, доступный по ссылке
+[[javascript:highlight(".Logo")][Тур с Go]] наверху в левом углу страницы.
 
-Также вы можете в любой момент увидеть содержание, нажав на [[javascript:highlightAndClick(".Nav")][меню]] наверху в правом углу страницы.
+Также вы можете в любой момент увидеть содержание, нажав на
+[[javascript:highlightAndClick(".Nav")][меню]] наверху в правом углу страницы.
 
-В течение тура вы найдете ряд слайдов и упражнений для выполнения.
+В течение тура вы найдете ряд слайдов и упражнений для их выполнения.
 
 Вы можете передвигаться по ним с помощью
 
@@ -34,18 +35,18 @@ https://golang.org
 Измените программу и выполните ее снова.
 
 Обратите внимание, что если клинкнуть по [[javascript:highlightAndClick("#format")][Формат]] или `ctrl-enter`
-текст в редакторе переформовуеться с помощью инструмента
-[[Https://golang.org/cmd/gofmt/][gofmt]]. Выделение синтаксиса включается и выключается нажатием на кнопку [[javascript:highlightAndClick(".Syntax-checkbox")][синтаксис]].
+текст в редакторе переформовуеться с помощью инструмента [[Https://golang.org/cmd/gofmt/][gofmt]].
+Выделение синтаксиса включается и выключается нажатием на кнопку [[javascript:highlightAndClick(".Syntax-checkbox")][синтаксис]].
 
 Когда вы готовы продолжить, нажмите [[javascript:highlightAndClick(".Next-page")][стрелку вправо]] снизу или нажмите клавишу `PageDown`.
 
 .play welcome/hello.go
 
-*Go локаль
+* Go тур на других языках
 
-Тур доступен на других языках:
+Тур переведен на другие языки:
 
-- [[https://tour.golang.org/][Англійська — English]]
+- [[https://tour.golang.org/][Английский — English]]
 - [[https://go-tour-br.appspot.com/][Бразильский португальский — Português do Brasil]]
 - [[https://go-tour-ca.appspot.com/][Каталонский — Català]]
 - [[https://go-tour-de.appspot.com/][Немецкий — Deutsch]]
@@ -55,16 +56,16 @@ https://golang.org
 - [[https://go-tour-he.appspot.com/][Иврит — עִבְרִית]]
 - [[https://go-tour-jp.appspot.com/][Японский — 日本語]]
 - [[https://go-tour-kr.appspot.com/][Корейский — 한국어]]
-- [[https://go-tour-ro.appspot.com/][Румунский — Română]]
-- [[https://tour.go-zh.org/][простой китайсий — 中文（简体）]]
+- [[https://go-tour-ro.appspot.com/][Румынский — Română]]
+- [[https://tour.go-zh.org/][простой Китайсий — 中文（简体）]]
 - [[https://go-tour-zh-tw.appspot.com/][Традиционный китайский — 中文（繁體）]]
 - [[https://go-tour-ua.appspot.com/][Украинский — Українська]]
-- [[https://go-tour-uz.appspot.com/][Узбецька — Ўзбекча]]
-- [[http://tur.a.golang.org.tr/][Турецька - Türkçe]]
+- [[https://go-tour-uz.appspot.com/][Узбецкий — Ўзбекча]]
+- [[http://tur.a.golang.org.tr/][Турецкий - Türkçe]]
 
 Нажмите кнопку [[javascript:highlightAndClick(".Next-page")]["дальше"]] или нажмите `Page Down`, чтобы продолжить.
 
-#appengine *Go оффлайн
+#appengine * Go оффлайн
 #appengine:
 #appengine Данный тур также доступен как автономная программа, которую вы можете
 #appengine: использовать без доступа к сети.
@@ -75,15 +76,15 @@ https://golang.org
 #appengine Чтобы запустить тур локально, сначала [[https://golang.org/doc/install/][установите Go]],
 #appengine: затем с помощью [[https://golang.org/cmd/go/][go get]] установите
 #appengine: [[https://golang.org/x/tour/][gotour]]:
-#appengine: 
+#appengine:
 #appengine: 	go get golang.org/x/tour/gotour
-#appengine: 
+#appengine:
 #appengine: и запустите полученный исполняемые файл `gotour`.
 #appengine:
 #appengine: cd $ GOPATH / bin
 #appengine: ./gotour
 
-#appengine *Go Площадка
+#appengine * Go Площадка
 #appengine:
 #appengine Этот тур построен на базе [[https://play.golang.org/][Go Площадке]],
 #appengine: веб-служба, работает на серверах [[https://golang.org/][golang.org]].
@@ -103,7 +104,7 @@ https://golang.org
 #appengine:
 #appengine: .play welcome/sandbox.go
 
-*Поздравляем!
+* Поздравляем!
 
 Вы завершили первое занятие тура!
 
